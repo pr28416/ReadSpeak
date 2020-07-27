@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82F8819624B5FE6D00ED4866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F8819524B5FE6D00ED4866 /* AppDelegate.swift */; };
+		82F8819824B5FE6D00ED4866 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F8819724B5FE6D00ED4866 /* SceneDelegate.swift */; };
+		82F8819A24B5FE6D00ED4866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F8819924B5FE6D00ED4866 /* ViewController.swift */; };
+		82F8819D24B5FE6D00ED4866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F8819B24B5FE6D00ED4866 /* Main.storyboard */; };
+		82F8819F24B5FE6E00ED4866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F8819E24B5FE6E00ED4866 /* Assets.xcassets */; };
+		82F881A224B5FE6E00ED4866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F881A024B5FE6E00ED4866 /* LaunchScreen.storyboard */; };
+		82F881AD24B5FE6E00ED4866 /* ReadSpeakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F881AC24B5FE6E00ED4866 /* ReadSpeakTests.swift */; };
+		82F881B824B5FE6E00ED4866 /* ReadSpeakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F881B724B5FE6E00ED4866 /* ReadSpeakUITests.swift */; };
+		82F881C624B6089F00ED4866 /* Voices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F881C524B6089F00ED4866 /* Voices.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82F881A924B5FE6E00ED4866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82F8818A24B5FE6D00ED4866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82F8819124B5FE6D00ED4866;
+			remoteInfo = ReadSpeak;
+		};
+		82F881B424B5FE6E00ED4866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82F8818A24B5FE6D00ED4866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82F8819124B5FE6D00ED4866;
+			remoteInfo = ReadSpeak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82D486DF24B618E9001CD243 /* ReadSpeak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReadSpeak.entitlements; sourceTree = "<group>"; };
+		82F8819224B5FE6D00ED4866 /* ReadSpeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadSpeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F8819524B5FE6D00ED4866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82F8819724B5FE6D00ED4866 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		82F8819924B5FE6D00ED4866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82F8819C24B5FE6D00ED4866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82F8819E24B5FE6E00ED4866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82F881A124B5FE6E00ED4866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82F881A324B5FE6E00ED4866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F881A824B5FE6E00ED4866 /* ReadSpeakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadSpeakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F881AC24B5FE6E00ED4866 /* ReadSpeakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadSpeakTests.swift; sourceTree = "<group>"; };
+		82F881AE24B5FE6E00ED4866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F881B324B5FE6E00ED4866 /* ReadSpeakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadSpeakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F881B724B5FE6E00ED4866 /* ReadSpeakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadSpeakUITests.swift; sourceTree = "<group>"; };
+		82F881B924B5FE6E00ED4866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F881C524B6089F00ED4866 /* Voices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voices.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82F8818F24B5FE6D00ED4866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F881A524B5FE6E00ED4866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F881B024B5FE6E00ED4866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82F8818924B5FE6D00ED4866 = {
+			isa = PBXGroup;
+			children = (
+				82F8819424B5FE6D00ED4866 /* ReadSpeak */,
+				82F881AB24B5FE6E00ED4866 /* ReadSpeakTests */,
+				82F881B624B5FE6E00ED4866 /* ReadSpeakUITests */,
+				82F8819324B5FE6D00ED4866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82F8819324B5FE6D00ED4866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82F8819224B5FE6D00ED4866 /* ReadSpeak.app */,
+				82F881A824B5FE6E00ED4866 /* ReadSpeakTests.xctest */,
+				82F881B324B5FE6E00ED4866 /* ReadSpeakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82F8819424B5FE6D00ED4866 /* ReadSpeak */ = {
+			isa = PBXGroup;
+			children = (
+				82D486DF24B618E9001CD243 /* ReadSpeak.entitlements */,
+				82F881C524B6089F00ED4866 /* Voices.swift */,
+				82F8819524B5FE6D00ED4866 /* AppDelegate.swift */,
+				82F8819724B5FE6D00ED4866 /* SceneDelegate.swift */,
+				82F8819924B5FE6D00ED4866 /* ViewController.swift */,
+				82F8819B24B5FE6D00ED4866 /* Main.storyboard */,
+				82F8819E24B5FE6E00ED4866 /* Assets.xcassets */,
+				82F881A024B5FE6E00ED4866 /* LaunchScreen.storyboard */,
+				82F881A324B5FE6E00ED4866 /* Info.plist */,
+			);
+			path = ReadSpeak;
+			sourceTree = "<group>";
+		};
+		82F881AB24B5FE6E00ED4866 /* ReadSpeakTests */ = {
+			isa = PBXGroup;
+			children = (
+				82F881AC24B5FE6E00ED4866 /* ReadSpeakTests.swift */,
+				82F881AE24B5FE6E00ED4866 /* Info.plist */,
+			);
+			path = ReadSpeakTests;
+			sourceTree = "<group>";
+		};
+		82F881B624B5FE6E00ED4866 /* ReadSpeakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82F881B724B5FE6E00ED4866 /* ReadSpeakUITests.swift */,
+				82F881B924B5FE6E00ED4866 /* Info.plist */,
+			);
+			path = ReadSpeakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82F8819124B5FE6D00ED4866 /* ReadSpeak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F881BC24B5FE6E00ED4866 /* Build configuration list for PBXNativeTarget "ReadSpeak" */;
+			buildPhases = (
+				82F8818E24B5FE6D00ED4866 /* Sources */,
+				82F8818F24B5FE6D00ED4866 /* Frameworks */,
+				82F8819024B5FE6D00ED4866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadSpeak;
+			productName = ReadSpeak;
+			productReference = 82F8819224B5FE6D00ED4866 /* ReadSpeak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82F881A724B5FE6E00ED4866 /* ReadSpeakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F881BF24B5FE6E00ED4866 /* Build configuration list for PBXNativeTarget "ReadSpeakTests" */;
+			buildPhases = (
+				82F881A424B5FE6E00ED4866 /* Sources */,
+				82F881A524B5FE6E00ED4866 /* Frameworks */,
+				82F881A624B5FE6E00ED4866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82F881AA24B5FE6E00ED4866 /* PBXTargetDependency */,
+			);
+			name = ReadSpeakTests;
+			productName = ReadSpeakTests;
+			productReference = 82F881A824B5FE6E00ED4866 /* ReadSpeakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82F881B224B5FE6E00ED4866 /* ReadSpeakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F881C224B5FE6E00ED4866 /* Build configuration list for PBXNativeTarget "ReadSpeakUITests" */;
+			buildPhases = (
+				82F881AF24B5FE6E00ED4866 /* Sources */,
+				82F881B024B5FE6E00ED4866 /* Frameworks */,
+				82F881B124B5FE6E00ED4866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82F881B524B5FE6E00ED4866 /* PBXTargetDependency */,
+			);
+			name = ReadSpeakUITests;
+			productName = ReadSpeakUITests;
+			productReference = 82F881B324B5FE6E00ED4866 /* ReadSpeakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82F8818A24B5FE6D00ED4866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					82F8819124B5FE6D00ED4866 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					82F881A724B5FE6E00ED4866 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 82F8819124B5FE6D00ED4866;
+					};
+					82F881B224B5FE6E00ED4866 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 82F8819124B5FE6D00ED4866;
+					};
+				};
+			};
+			buildConfigurationList = 82F8818D24B5FE6D00ED4866 /* Build configuration list for PBXProject "ReadSpeak" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82F8818924B5FE6D00ED4866;
+			productRefGroup = 82F8819324B5FE6D00ED4866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82F8819124B5FE6D00ED4866 /* ReadSpeak */,
+				82F881A724B5FE6E00ED4866 /* ReadSpeakTests */,
+				82F881B224B5FE6E00ED4866 /* ReadSpeakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82F8819024B5FE6D00ED4866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F881A224B5FE6E00ED4866 /* LaunchScreen.storyboard in Resources */,
+				82F8819F24B5FE6E00ED4866 /* Assets.xcassets in Resources */,
+				82F8819D24B5FE6D00ED4866 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F881A624B5FE6E00ED4866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F881B124B5FE6E00ED4866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82F8818E24B5FE6D00ED4866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F881C624B6089F00ED4866 /* Voices.swift in Sources */,
+				82F8819A24B5FE6D00ED4866 /* ViewController.swift in Sources */,
+				82F8819624B5FE6D00ED4866 /* AppDelegate.swift in Sources */,
+				82F8819824B5FE6D00ED4866 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F881A424B5FE6E00ED4866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F881AD24B5FE6E00ED4866 /* ReadSpeakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F881AF24B5FE6E00ED4866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F881B824B5FE6E00ED4866 /* ReadSpeakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82F881AA24B5FE6E00ED4866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82F8819124B5FE6D00ED4866 /* ReadSpeak */;
+			targetProxy = 82F881A924B5FE6E00ED4866 /* PBXContainerItemProxy */;
+		};
+		82F881B524B5FE6E00ED4866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82F8819124B5FE6D00ED4866 /* ReadSpeak */;
+			targetProxy = 82F881B424B5FE6E00ED4866 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82F8819B24B5FE6D00ED4866 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82F8819C24B5FE6D00ED4866 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82F881A024B5FE6E00ED4866 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82F881A124B5FE6E00ED4866 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82F881BA24B5FE6E00ED4866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82F881BB24B5FE6E00ED4866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82F881BD24B5FE6E00ED4866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReadSpeak/ReadSpeak.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R6T6D54FQ;
+				INFOPLIST_FILE = ReadSpeak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavramesh.ReadSpeak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82F881BE24B5FE6E00ED4866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReadSpeak/ReadSpeak.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R6T6D54FQ;
+				INFOPLIST_FILE = ReadSpeak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavramesh.ReadSpeak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82F881C024B5FE6E00ED4866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R6T6D54FQ;
+				INFOPLIST_FILE = ReadSpeakTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavramesh.ReadSpeakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadSpeak.app/ReadSpeak";
+			};
+			name = Debug;
+		};
+		82F881C124B5FE6E00ED4866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R6T6D54FQ;
+				INFOPLIST_FILE = ReadSpeakTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavramesh.ReadSpeakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadSpeak.app/ReadSpeak";
+			};
+			name = Release;
+		};
+		82F881C324B5FE6E00ED4866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R6T6D54FQ;
+				INFOPLIST_FILE = ReadSpeakUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavramesh.ReadSpeakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadSpeak;
+			};
+			name = Debug;
+		};
+		82F881C424B5FE6E00ED4866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R6T6D54FQ;
+				INFOPLIST_FILE = ReadSpeakUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavramesh.ReadSpeakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadSpeak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82F8818D24B5FE6D00ED4866 /* Build configuration list for PBXProject "ReadSpeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F881BA24B5FE6E00ED4866 /* Debug */,
+				82F881BB24B5FE6E00ED4866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82F881BC24B5FE6E00ED4866 /* Build configuration list for PBXNativeTarget "ReadSpeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F881BD24B5FE6E00ED4866 /* Debug */,
+				82F881BE24B5FE6E00ED4866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82F881BF24B5FE6E00ED4866 /* Build configuration list for PBXNativeTarget "ReadSpeakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F881C024B5FE6E00ED4866 /* Debug */,
+				82F881C124B5FE6E00ED4866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82F881C224B5FE6E00ED4866 /* Build configuration list for PBXNativeTarget "ReadSpeakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F881C324B5FE6E00ED4866 /* Debug */,
+				82F881C424B5FE6E00ED4866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82F8818A24B5FE6D00ED4866 /* Project object */;
+}
